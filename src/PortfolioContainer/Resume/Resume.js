@@ -92,8 +92,8 @@ const Resume = (props) => {
         toDate={"2017"}
       />
       <ResumeHeading
-        heading={"Werner von Siemens Gymnasium"}
-        subHeading={"Regensburg"}
+        heading={"Werner von Siemens Gymnasium Regensburg"}
+        subHeading={"Abitur"}
         fromDate={"2003"}
         toDate={"2015"}
       />
