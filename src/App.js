@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./pages";
+import Earn from "./pages/earn";
+import Rewards from "./pages/rewards";
+import SignUp from "./pages/signup";
+import Coinflip from "./pages/gamesPage/coinflipPage/coinflip";
+import Marble from "./pages/gamesPage/marblePage/marble";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/coinflip" exact element={<Coinflip />} />
+        <Route path="/marble" exact element={<Marble />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/earn" exact element={<Earn />} />
+        <Route path="/rewards" exact element={<Rewards />} />
+        <Route path="/sign-up" exact element={<SignUp />} />
+      </Routes>
+    </Router>
   );
 }
 
