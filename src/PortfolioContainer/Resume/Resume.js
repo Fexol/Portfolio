@@ -95,7 +95,22 @@ const Resume = (props) => {
       description:
         "A Rubiks Cube only using CSS. Using animations and perspective to imitate a 3D scene.",
       subHeading: "Technologies Used: HTML, CSS",
-      link: "test",
+    },
+    {
+      title: (
+        <a
+          style={{ color: "#ff5823" }}
+          target="_blank"
+          rel="noreferrer"
+          href="https://fexol.github.io/tictactoe/"
+          title="Link"
+        >
+          TIC TAC TOE
+        </a>
+      ),
+      duration: { fromDate: "2022", toDate: "2022" },
+      description: "A simple TIC TAC TOE game for the browser.",
+      subHeading: "Technologies Used: React JS, SCSS",
     },
   ];
 
