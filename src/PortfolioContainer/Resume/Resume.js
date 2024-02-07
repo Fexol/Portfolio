@@ -35,7 +35,6 @@ const Resume = (props) => {
         </div>
         <div className="resume-heading-description">
           <span>{props.description ? props.description : ""}</span>
-          <span>{props.link ? props.link : ""}</span>
         </div>
       </div>
     );
@@ -78,6 +77,23 @@ const Resume = (props) => {
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
+    },
+    {
+      title: (
+        <a
+          style={{ color: "#ff5823" }}
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/Fexol/5000erRennen"
+          title="Link"
+        >
+          5000er Rennen
+        </a>
+      ),
+      duration: { fromDate: "2023", toDate: "2023" },
+      description:
+        "An Android application for tracking the scores for the dice game 5000er Rennen. It is played with 6 dice and goal is to reach 5000 points the fastest.",
+      subHeading: "Technologies Used: Java",
     },
     {
       title: (
