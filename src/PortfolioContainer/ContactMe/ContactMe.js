@@ -97,17 +97,8 @@ export default function ContactMe(props) {
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
-          <a href="https://www.github.com/">
+          <a href="https://www.github.com/fexol">
             <i className="fa fa-github-square"></i>
-          </a>
-          <a href="https://web.facebook.com">
-            <i className="fa fa-facebook-square" />
-          </a>
-          <a href="https://www.instagram.com">
-            <i className="fa fa-instagram" />
-          </a>
-          <a href="https://twitter.com">
-            <i className="fa fa-twitter" />
           </a>
         </div>
         <div className="back-form">
@@ -132,7 +123,7 @@ export default function ContactMe(props) {
 
             <div className="send-btn">
               <button type="submit">
-                send
+                <span style={{ marginRight: "5px" }}>send</span>
                 <i className="fa fa-paper-plane" />
               </button>
             </div>

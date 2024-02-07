@@ -9,17 +9,8 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.github.com/">
+              <a href="https://www.github.com/fexol">
                 <i className="fa fa-github-square"></i>
-              </a>
-              <a href="https://de-de.facebook.com/">
-                <i className="fa fa-facebook-square"></i>
-              </a>
-              <a href="https://www.instagram.com/">
-                <i className="fa fa-instagram"></i>
-              </a>
-              <a href="https://twitter.com/">
-                <i className="fa fa-twitter-square"></i>
               </a>
             </div>
           </div>
@@ -59,7 +50,10 @@ export default function Profile() {
               {""}
               Hire Me{" "}
             </button>
-            <a href="Noten.pdf" download="Felix Holewa Resume.pdf">
+            <a
+              href="Lebenslauf_FelixHolewa.pdf"
+              download="Lebenslauf_FelixHolewa.pdf"
+            >
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

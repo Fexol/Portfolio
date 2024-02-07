@@ -35,6 +35,7 @@ const Resume = (props) => {
         </div>
         <div className="resume-heading-description">
           <span>{props.description ? props.description : ""}</span>
+          <span>{props.link ? props.link : ""}</span>
         </div>
       </div>
     );
@@ -43,36 +44,57 @@ const Resume = (props) => {
   const resumeBullets = [
     { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
-    { label: "Programming Skills", logoSrc: "programming-skills.svg" },
+    { label: "Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
   //SKILLS DATA
   const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 80 },
-    { skill: "React JS", ratingPercentage: 80 },
-    { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Core Java", ratingPercentage: 85 },
     { skill: "HTML", ratingPercentage: 90 },
     { skill: "CSS", ratingPercentage: 80 },
+    { skill: "JavaScript", ratingPercentage: 80 },
+    { skill: "React JS", ratingPercentage: 80 },
+    { skill: "Java", ratingPercentage: 75 },
+    { skill: "C#", ratingPercentage: 65 },
+    { skill: "Usability Tests", ratingPercentage: 65 },
+    { skill: "Blender 3D", ratingPercentage: 70 },
   ];
 
   const projectsDetails = [
     {
-      title: "Personal Portfolio Website",
+      title: (
+        <a
+          style={{ color: "#ff5823" }}
+          target="_blank"
+          rel="noreferrer"
+          href="https://fexol.github.io/Portfolio/"
+          title="Link"
+        >
+          Personal Portfolio Website
+        </a>
+      ),
       duration: { fromDate: "2022", toDate: "2023" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
-      link: "test",
     },
     {
-      title: "3D CSS",
-      duration: { fromDate: "2022", toDate: "2023" },
+      title: (
+        <a
+          style={{ color: "#ff5823" }}
+          target="_blank"
+          rel="noreferrer"
+          href="https://fexol.github.io/Rubix3D/"
+          title="Link"
+        >
+          CSS only Rubiks Cube
+        </a>
+      ),
+      duration: { fromDate: "2022", toDate: "2022" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "A Rubiks Cube only using CSS. Using animations and perspective to imitate a 3D scene.",
+      subHeading: "Technologies Used: HTML, CSS",
       link: "test",
     },
   ];
@@ -81,19 +103,21 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Universität Regensburg"}
-        subHeading={"BACHELOR OF ARTS Medieninformatik"}
-        fromDate={"2017"}
+        subHeading={
+          "BACHELOR OF ARTS Medieninformatik (Grade: 1.7); 2. Hauptfach Informationswissenschaft "
+        }
+        fromDate={"2016"}
         toDate={"2022"}
       />
       <ResumeHeading
         heading={"Universität Regensburg"}
-        subHeading={"BACHELOR OF SCIENCE Physik"}
+        subHeading={"BACHELOR OF SCIENCE Physik (Grade: not completed)"}
         fromDate={"2015"}
-        toDate={"2017"}
+        toDate={"2016"}
       />
       <ResumeHeading
         heading={"Werner von Siemens Gymnasium Regensburg"}
-        subHeading={"Abitur"}
+        subHeading={"Abitur (Grade: 2.2)"}
         fromDate={"2003"}
         toDate={"2015"}
       />
