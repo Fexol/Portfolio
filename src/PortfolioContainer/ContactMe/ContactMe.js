@@ -100,6 +100,13 @@ export default function ContactMe(props) {
           <a href="https://www.github.com/fexol">
             <i className="fa fa-github-square"></i>
           </a>
+          <a
+            href="https://www.linkedin.com/in/felix-holewa"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa fa-linkedin-square"></i>
+          </a>
         </div>
         <div className="back-form">
           <div className="img-back">

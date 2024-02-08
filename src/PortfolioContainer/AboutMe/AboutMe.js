@@ -14,14 +14,15 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Frontend web developer with background knowledge of React with redux, along with enthusiasm for building applications with utmost efficiency. Strong professional with a Bachelor of Arts in Media Informatics willing to be an asset for an organization.",
+      "Frontend web developer with background knowledge of React with redux, along with enthusiasm for building applications with utmost efficiency and usability at its focus. Graduate with a Bachelor of Arts in Media Informatics willing to be an asset for an organization with a welcoming team for a Junior Dev.",
     highlights: {
       bullets: [
         "Frontend web development",
         "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Management",
-        "Managing database",
+        "ReactJS",
+        "Java",
+        "Usability Testing",
+        "Blender 3D",
       ],
       heading: "Here are a Few Highlights:",
     },
