@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4480d741.css",
-    "main.js": "/Portfolio/static/js/main.08106687.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/Portfolio/static/css/main.3bc26563.css",
+    "main.js": "/Portfolio/static/js/main.266857d4.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/me.jpg": "/Portfolio/static/media/me.0431c315e587e0183cdf.jpg",
     "static/media/cern.jpg": "/Portfolio/static/media/cern.da933824dcefc42ff549.jpg",
     "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -20,12 +20,12 @@
     "static/media/interests.svg": "/Portfolio/static/media/interests.311391e8b5ae1f2a7364.svg",
     "static/media/education.svg": "/Portfolio/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/Portfolio/static/media/work-history.f8127a79c81e4defe8bc.svg",
-    "main.4480d741.css.map": "/Portfolio/static/css/main.4480d741.css.map",
-    "main.08106687.js.map": "/Portfolio/static/js/main.08106687.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.3bc26563.css.map": "/Portfolio/static/css/main.3bc26563.css.map",
+    "main.266857d4.js.map": "/Portfolio/static/js/main.266857d4.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4480d741.css",
-    "static/js/main.08106687.js"
+    "static/css/main.3bc26563.css",
+    "static/js/main.266857d4.js"
   ]
 }
