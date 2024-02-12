@@ -115,13 +115,23 @@ export default function ContactMe(props) {
           </div>
           <form ref={ref} onSubmit={handleSubmit}>
             <p>{banner}</p>
-            <label htmlFor="name">Name</label>
-            <input placeholder="Your name" type="text" name="name" />
+            <span htmlFor="name">Name</span>
+            <input
+              autoComplete="off"
+              placeholder="Your name"
+              type="text"
+              name="name"
+            />
 
-            <label htmlFor="email">Email</label>
-            <input placeholder="Your email address" type="email" name="email" />
+            <span htmlFor="email">Email</span>
+            <input
+              autoComplete="off"
+              placeholder="Your email address"
+              type="email"
+              name="email"
+            />
 
-            <label htmlFor="message">Message</label>
+            <span htmlFor="message">Message</span>
             <textarea
               placeholder="Write your message"
               type="text"
